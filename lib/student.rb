@@ -5,7 +5,7 @@ def initialize
 end
 
 def learn(knowledge)
-knowledge.to_s << @knowledge
+@knowledge << knowledge.to_s 
 end
 
 end
