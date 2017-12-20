@@ -8,4 +8,8 @@ def learn(knowledge)
 @knowledge << knowledge.to_s 
 end
 
+def knowledge
+  @knowledge
+end 
+
 end
