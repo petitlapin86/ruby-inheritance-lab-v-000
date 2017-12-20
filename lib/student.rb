@@ -5,11 +5,11 @@ def initialize
 end
 
 def learn(knowledge)
-@knowledge << knowledge.to_s 
+@knowledge << knowledge.to_s
 end
 
 def knowledge
   @knowledge
-end 
+end
 
 end
